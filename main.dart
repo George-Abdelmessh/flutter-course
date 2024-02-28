@@ -59,19 +59,22 @@ add function, to create var x it = 5
 // 5 m
 // var => 2m
 
-/// null => 1m  no value
-/// String => 2m text
-/// int => 1m numbers
-/// double => 1.5m numbers floated point 1.5 2.5
-/// bool => 0.5 m true or flase
-/// 
-// void main() {
-//   int age = 5;
-//   String name = "george";
-//   double height = 180.5;
-//   bool maried = false;
-//   bool isMale = true;
-  
-//   print(age.runtimeType);
-// }
 
+// import 'dart:io';
+
+// import 'lib/variables.dart';
+
+/// ToDo read null sufty docs
+/// ToDo handle user input data 
+
+void main() {
+  
+  int? age;
+
+  // print(age);
+  // print(name);
+  // print('Enter your name: ');
+  // String name = stdin.readLineSync();
+  print('Enter your age: $age');
+  // stdin.readLineSync();
+}
