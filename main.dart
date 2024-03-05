@@ -4,7 +4,7 @@
 /// Naming convention
 /// final vs const
 /// Operators[Arithmetic(+ - * / ++ -- %), Assignment(= += -= *= ), Comparison(== != > < >= <=), Logical(& | !)]
-/// Functions *** not Complited
+/// Functions *** not Completed
 ///
 /// String Functions
 /// data types [List, Maps, Set]
