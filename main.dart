@@ -4,6 +4,7 @@
 /// final vs const
 /// Operators[Arithmetic(+ - * / ++ -- %), Assignment(= += -= *= ), Comparison(== != > < >= <=), Logical(& | !)]
 /// Functions
+///
 /// String Functions
 /// data types [List, Maps, Set]
 /// Loops (while, for, forEach)
@@ -66,5 +67,14 @@ void main() {
   // bool result = user1.length < user2.length;
   // bool result = user1.length >= user2.length;
   // bool result = user1.length <= user2.length;
+  // print(result);
+
+  /// Logical(& | !) AND(&&), OR(||), NOT(!) => `true` or `false`
+  // String user1 = 'Geo';
+  // String user2 = 'Ali';
+  // bool result = user1.length <= user2.length || user1.length > user2.length;
+  // bool result = user1.length <= user2.length && user1.length == user2.length;
+  // bool result = !(user1.length <= user2.length);
+  // bool result = !(user1.length < user2.length);
   // print(result);
 }
