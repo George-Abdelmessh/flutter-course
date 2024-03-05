@@ -1,9 +1,10 @@
+
 /// user input stdin.readLineSync()
 /// Casting ()
 /// Naming convention
 /// final vs const
 /// Operators[Arithmetic(+ - * / ++ -- %), Assignment(= += -= *= ), Comparison(== != > < >= <=), Logical(& | !)]
-/// Functions
+/// Functions *** not Complited
 ///
 /// String Functions
 /// data types [List, Maps, Set]
@@ -77,4 +78,26 @@ void main() {
   // bool result = !(user1.length <= user2.length);
   // bool result = !(user1.length < user2.length);
   // print(result);
+
+  /// Function
+  // printHelloWorld();
+  // print(5.toDouble());
+
+  /// String Functions
+  final String name = "AAc";
+  final String name2 = "AA";
+  print(name.toUpperCase());
+  print(name.toLowerCase());
+  print(name.split(' '));
+  print(name.contains('A'));
+  print(name.replaceFirst('A', 'B'));
+  print(name.replaceAll('A', 'c'));
+}
+
+/// 1- define function => data type, function name
+/// 2- write function body
+/// 3- call function
+void printHelloWorld() {
+  String message = "Hello World";
+  print(message);
 }

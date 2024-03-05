@@ -75,10 +75,13 @@ add function, to create var x it = 5
 //   // stdin.readLineSync();
 // }
 
-import 'dart:io'; 
+import 'dart:io';
+
+import 'main.dart';
   
 void main() 
-{ 
-    int number = int.parse(stdin.readLineSync()!); 
-    print("The number is $number"); 
+{
+    calcAge();
+    int number = int.parse(stdin.readLineSync()!);
+    print("The number is $number");
 }
