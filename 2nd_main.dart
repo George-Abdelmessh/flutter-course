@@ -5,15 +5,7 @@
 /// final vs const
 /// Operators[Arithmetic(+ - * / ++ -- %), Assignment(= += -= *= ), Comparison(== != > < >= <=), Logical(& | !)]
 /// Functions *** not Completed
-///
-/// String Functions
-/// data types [List, Maps, Set]
-/// Loops (while, for, forEach)
-/// Conditional Statement
 
-//''.codeUnits property
-//''.runes property
-//''.codeUnitAt
 
 // import 'dart:io';
 
@@ -92,6 +84,7 @@ void main() {
   print(name.contains('A'));
   print(name.replaceFirst('A', 'B'));
   print(name.replaceAll('A', 'c'));
+  print(name.compareTo(name2));
 }
 
 /// 1- define function => data type, function name
