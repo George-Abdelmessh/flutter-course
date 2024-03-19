@@ -1,6 +1,5 @@
-//''.codeUnits property
-//''.runes property
-//''.codeUnitAt
+import 'dart:io';
+
 /// Functions => Built in Vs User Defined
 /// Function return vs void
 /// Function Parameter
@@ -10,12 +9,7 @@
 /// Switch
 /// Control statement => Break & Continue
 ///
-/// Loops (for, while, do while, forEach)
-/// Collection Data Types [List, Maps, Set]
-/// EXCEPTION HANDLING
-/// Intro To OOP
-// on UnsupportedError
-// throw Exception_name() => FormatException
+/// Loops (for, while, do while, forEach) => for and while `Done`
 
 /// Function
 /// ? => allow null, ! => null check, ?? => if null
@@ -121,19 +115,19 @@ void main() {
   /// Loops (for, while, do while, forEach)
   /// for => counter; condition; incremental ++i i++
 
-  // print('Enter Number');
-  // int? count = int.parse(stdin.readLineSync()!);
-  // print('Choose team member name: Geo, Ali, Ahmed');
-  // String? name = stdin.readLineSync();
-  //
-  // for(int i = 0; i <= count; i++) {
-  //   if(name != 'Geo' && name != 'Ali' && name != 'Ahmed') {
-  //     print('Not Found, try again!');
-  //     name = stdin.readLineSync();
-  //   } else {
-  //     break;
-  //   }
-  // }
+  print('Enter Number');
+  int? count = int.parse(stdin.readLineSync()!);
+  print('Choose team member name: Geo, Ali, Ahmed');
+  String? name = stdin.readLineSync();
+
+  for(int i = 0; i <= count; i++) {
+    if(name != 'Geo' && name != 'Ali' && name != 'Ahmed') {
+      print('Not Found, try again!');
+      name = stdin.readLineSync();
+    } else {
+      break;
+    }
+  }
 
   // print('Enter user name: ');
   // String? name = stdin.readLineSync();
