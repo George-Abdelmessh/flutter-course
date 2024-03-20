@@ -32,7 +32,7 @@ void getUserOption() {
     case '2':
       addTask();
     case '3':
-      editTask();
+      editTaskEnhancement();
     case '4':
       markAsDone();
     case '5':
@@ -115,20 +115,42 @@ void searchForATask() {
 void editTask() {
   print('Enter Task ID: ');
   final int? id = int.parse(stdin.readLineSync()!);
-  for(int i = 0; i< tasks.length; i++) {
-    if(id == tasks[i]['id']) {
-      print('Choose 1.Name OR 2.Duration ');
+  for (int i = 0; i < tasks.length; i++) {
+    if (id == tasks[i]['id']) {
+      print('Choose 1.Name OR 2.Duration');
       final String option = stdin.readLineSync()!;
-      if(option == '1'){
+      if (option == '1') {
         print('Enter Task Name: ');
         final String name = stdin.readLineSync()!;
         tasks[i]['name'] = name;
-      } else if(option == '2') {
+      } else if (option == '2') {
         print('Enter Task Duration: ');
         final String duration = stdin.readLineSync()!;
         tasks[i]['duration'] = duration;
       } else {
         print('Invalid Option');
+      }
+      break;
+    }
+  }
+  showTasks();
+}
+
+void editTaskEnhancement() {
+  print('Enter Task ID: ');
+  final int? id = int.parse(stdin.readLineSync()!);
+  
+  for (int i = 0; i < tasks.length; i++) {
+    if (id == tasks[i]['id']) {
+      print('Enter Name OR Skip');
+      final String? name = stdin.readLineSync();
+      if (name!.isNotEmpty) {
+        tasks[i]['name'] = name;
+      }
+      print('Enter Duration OR Skip');
+      final String? duration = stdin.readLineSync();
+      if (duration!.isNotEmpty) {
+        tasks[i]['duration'] = duration;
       }
       break;
     }
