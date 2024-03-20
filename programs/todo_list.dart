@@ -6,19 +6,7 @@ List<Map> tasks = [
     "name": 'Gym',
     "is_done": false,
     "duration": '50 M',
-  },
-  {
-    "id": 2,
-    "name": 'Work',
-    "is_done": false,
-    "duration": '30 M',
-  },
-  {
-    "id": 3,
-    "name": 'Gym',
-    "is_done": false,
-    "duration": '20 M',
-  },
+  }
 ];
 
 void getUserOption() {
@@ -139,7 +127,7 @@ void editTask() {
 void editTaskEnhancement() {
   print('Enter Task ID: ');
   final int? id = int.parse(stdin.readLineSync()!);
-  
+
   for (int i = 0; i < tasks.length; i++) {
     if (id == tasks[i]['id']) {
       print('Enter Name OR Skip');
