@@ -17,7 +17,7 @@ void getUserOption() {
   print(
     "please Choose Option: \n1.Show Tasks\n2.Add Task \n3.Edit Task \n4.Mark As Done \n5.Search \n6.Delete Task",
   );
-  final String? option = stdin.readLineSync(hello
+  final String? option = stdin.readLineSync();
   switch (option) {
     case '1':
       showTasks();

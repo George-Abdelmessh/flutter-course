@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa41ebc8-74c3-461e-b4d9-bcc3069e7a59" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/programs/contact_system.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programs/contacts_system.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/Untitled.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/programs/todo_app.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/programs/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programs/todo_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/programs/todo_list.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
