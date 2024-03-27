@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa41ebc8-74c3-461e-b4d9-bcc3069e7a59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/programs/contact_system.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programs/contacts_system.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/car.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/Untitled.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/programs/todo_app.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/programs/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/todo_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/programs/todo_list.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +49,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.main.dart">
-    <configuration name="1st_main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/1st_main.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2nd_main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/2nd_main.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Dart Command Line App.car.dart">
     <configuration name="3rd_main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/3rd_main.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -73,6 +60,16 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="car.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/oop/car.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/oop" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main.dart (1)" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/oop/main.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/oop" />
+      <method v="2" />
+    </configuration>
     <configuration name="main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/programs/main.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/programs" />
@@ -80,11 +77,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.car.dart" />
+        <item itemvalue="Dart Command Line App.main.dart (1)" />
         <item itemvalue="Dart Command Line App.main.dart" />
         <item itemvalue="Dart Command Line App.4th_main.dart" />
         <item itemvalue="Dart Command Line App.3rd_main.dart" />
-        <item itemvalue="Dart Command Line App.2nd_main.dart" />
-        <item itemvalue="Dart Command Line App.1st_main.dart" />
       </list>
     </recent_temporary>
   </component>
