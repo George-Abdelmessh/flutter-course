@@ -106,15 +106,15 @@ class Model3 extends Tesla {
 }
 
 void main() {
-  // List<Animal> animals = [
-  //   Animal('loin', 3),
-  //   Bird(50, 'Parrot', 2),
-  //   Fish('fresh', 'GoldFish', 1),
-  // ];
-  //
-  // for (var animal in animals) {
-  //   animal.describe();
-  // }
+  List<Animal> animals = [
+    Animal('loin', 3),
+    Bird(50, 'Parrot', 2),
+    Fish('fresh', 'GoldFish', 1),
+  ];
+
+  for (var animal in animals) {
+    animal.describe();
+  }
 
   // /// 20 10
   // final Rectangle r1 = Rectangle();

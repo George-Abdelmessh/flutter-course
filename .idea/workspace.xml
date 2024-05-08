@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa41ebc8-74c3-461e-b4d9-bcc3069e7a59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/oop/oop_example.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/rectangle.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/session_ten_main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task/book.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task/member.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task/purchase.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task/user.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/2nd_main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/oop/session_nine_main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/oop_example.dart" beforeDir="false" afterPath="$PROJECT_DIR$/oop/oop_example.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +53,15 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.oop_example.dart">
+  <component name="RunManager" selected="Dart Command Line App.main.dart">
     <configuration name="car.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/oop/car.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/oop" />
       <method v="2" />
     </configuration>
-    <configuration name="main.dart (1)" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/oop/main.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/oop" />
+    <configuration name="main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/task/main.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/task" />
       <method v="2" />
     </configuration>
     <configuration name="oop_example.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
@@ -79,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.main.dart" />
         <item itemvalue="Dart Command Line App.oop_example.dart" />
         <item itemvalue="Dart Command Line App.session_ten_main.dart" />
         <item itemvalue="Dart Command Line App.session_nine_main.dart" />
         <item itemvalue="Dart Command Line App.car.dart" />
-        <item itemvalue="Dart Command Line App.main.dart (1)" />
       </list>
     </recent_temporary>
   </component>
